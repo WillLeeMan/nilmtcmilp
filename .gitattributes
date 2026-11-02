@@ -1,0 +1,5 @@
+# 统一按 LF 检出: construct_tmilp_project.py 的 SHA256 被 v3 硬编码校验,
+# 换行符变化会导致 check_legacy_source() 失败。
+* text=auto eol=lf
+*.h5 binary
+*.npz binary
