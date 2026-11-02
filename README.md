@@ -99,4 +99,23 @@ MATLAB 源码保留在配套研究仓库的 `_m_src_utf8/` 目录中，未随本
 
 ## 引用
 
-如果这个模型对你的研究有帮助，请引用对应论文（待补充）。
+本仓库实现了下面这篇论文中的紧凑 MILP 形式（启动变量连续化 + 归一化功率变量）：
+
+> W. Li, X. Yan, and C. Gao, "A Compact Mixed-Integer Linear Programming Formulation for
+> Non-Intrusive Load Monitoring With Startup Linking and Normalized Power Variables,"
+> in *2026 IEEE/IAS Industrial and Commercial Power System Asia (I&CPS Asia)*, Nanjing, China, 2026.
+> DOI: [10.1109/ICPSASIA70813.2026.11692312](https://doi.org/10.1109/ICPSASIA70813.2026.11692312)
+
+```bibtex
+@inproceedings{li2026compact,
+  title     = {A Compact Mixed-Integer Linear Programming Formulation for Non-Intrusive
+               Load Monitoring With Startup Linking and Normalized Power Variables},
+  author    = {Li, Wei and Yan, Xingyu and Gao, Ciwei},
+  booktitle = {2026 IEEE/IAS Industrial and Commercial Power System Asia (I\&CPS Asia)},
+  address   = {Nanjing, China},
+  year      = {2026},
+  doi       = {10.1109/ICPSASIA70813.2026.11692312}
+}
+```
+
+GitHub 会读取根目录的 [CITATION.cff](CITATION.cff)，仓库页面右侧会出现 "Cite this repository" 按钮。
